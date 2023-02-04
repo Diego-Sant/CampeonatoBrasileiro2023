@@ -44,7 +44,7 @@ public class PlayerDetails extends JFrame implements ActionListener {
 	JTextField tf, tf1;
 	JPanel jp;
 	String x[] = { "Nome", "Idade", "Posição", "Time", "Assistências", "Gols", "País", "N° Camisa" };
-	String y[][] = new String[100][8];
+	String y[][] = new String[180][8];
 
 	int i = 0, j = 0;
 
