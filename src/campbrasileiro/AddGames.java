@@ -204,7 +204,7 @@ public class AddGames extends JFrame implements ActionListener {
 		l6.setForeground(Color.WHITE);
 		jp.add(l6);
 
-		c3 = new JComboBox<String>(new String[] { "Vitória", "Derrota", "Empate", "Vitória(Campeão)", "Derrota(Campeão)", "Empate(Campeão)", "Vitória(Classificado)", "Derrota(Classificado)", "Empate(Classificado)", "Vitória(Eliminado)", "Derrota(Eliminado)", "Empate(Eliminado)", "Vitória na prorrogação(Classificado)", "Vitória na prorrogação(Campeão)", "Derrota na prorrogação", "Vitória nos pênaltis(Classificado)", "Vitória nos pênaltis(Campeão)", "Derrota nos pênaltis"});
+		c3 = new JComboBox<String>(new String[] { "Vitória", "Derrota", "Empate", "Vitória(Campeão)", "Derrota(Campeão)", "Empate(Campeão)", "Vitória(Classificado)", "Derrota(Classificado)", "Empate(Classificado)", "Vitória(Eliminado)", "Derrota(Eliminado)", "Empate(Eliminado)", "Vitória na prorrogação(Classificado)", "Vitória na prorrogação(Campeão)", "Derrota na prorrogação", "Vitória nos pênaltis(Classificado)", "Vitória nos pênaltis(Campeão)", "Derrota nos pênaltis", "Vitória(3° Lugar)"});
 		c3.setBounds(350, 150, 180, 30);
 		c3.setSelectedIndex(-1);
 		c3.setForeground(Color.WHITE);
