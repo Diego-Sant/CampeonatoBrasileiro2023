@@ -1,9 +1,9 @@
 import Layout from '@/components/template/Layout'
 
-export default function Home() {
+export default function Bragantino() {
   return (
     <div>
-      <Layout title='Red Bull Bragantino' subtitle='Template'>
+      <Layout title='Red Bull Bragantino'>
         <h3>Conteúdo</h3>
       </Layout>
     </div>

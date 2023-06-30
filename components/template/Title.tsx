@@ -2,14 +2,12 @@ import SideMenu from "./SideMenu"
 
 interface TitleProps {
     title: string
-    subtitle: string
 }
 
 export default function Title(props: TitleProps) {
     return (
-        <div>
-            <h1 className="">{props.title}</h1>
-            <h2 className="">{props.subtitle}</h2>
+        <div className="flex justify-center items-center">
+            <h1 className="text-2xl sm:text-3xl font-bold">{props.title}</h1>
         </div>
     )
 }

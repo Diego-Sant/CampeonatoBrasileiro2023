@@ -1,9 +1,9 @@
 import Layout from '@/components/template/Layout'
 
-export default function Home() {
+export default function Goias() {
   return (
     <div>
-      <Layout title='Goiás Esporte Clube' subtitle='Template'>
+      <Layout title='Goiás Esporte Clube'>
         <h3>Conteúdo</h3>
       </Layout>
     </div>

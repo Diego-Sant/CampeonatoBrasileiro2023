@@ -1,9 +1,9 @@
 import Layout from '@/components/template/Layout'
 
-export default function Home() {
+export default function Corinthians() {
   return (
     <div>
-      <Layout title='Sport Club Corinthians Paulista' subtitle='Template'>
+      <Layout title='Sport Club Corinthians Paulista'>
         <h3>Conteúdo</h3>
       </Layout>
     </div>

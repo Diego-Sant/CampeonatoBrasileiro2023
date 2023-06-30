@@ -1,15 +1,22 @@
-import { useState } from "react";
 import { IconAFC, IconBFR, IconCAM, IconCAP, IconCFC, IconCRF, IconCRU, IconCRVG, IconCUI, IconECB, IconFEC, IconFFC, IconGEC, IconGFBPA, IconRBB, IconSCCP, IconSCI, IconSEP, IconSFC, IconSPFC, IconSerieA } from "../icons";
 import MenuItem from "./MenuItem";
+import Image from "next/image";
+import Logo from "../../public/images/Logo.png"
+import Link from "next/link";
 
 export default function SideMenu() {
 
     return (
-        <aside className="bg-[#13265a]">
+        <aside className="bg-[#13265a] dark:bg-[#111e3f] w-36">
+            <div className="flex items-center justify-center h-20 w-30 dark:bg-[#121327] bg-[#c1f700]">
+                <Link href="/">
+                    <Image className="w-16 h-16 transition-[2s] hover:scale-125" src={Logo} alt="Campeonato Brasileiro 2023" />
+                </Link>
+            </div>
             <ul>
-                <MenuItem url="/" text="Início" icon={IconSerieA} />
+                <MenuItem url="/" text="Destaques" icon={IconSerieA} />
                 <MenuItem url="/america" text="América" icon={IconAFC} />
-                <MenuItem url="/athletico" text="América" icon={IconCAP} />
+                <MenuItem url="/athletico" text="Athletico" icon={IconCAP} />
                 <MenuItem url="/atletico" text="Atlético-MG" icon={IconCAM} />
                 <MenuItem url="/bahia" text="Bahia" icon={IconECB} />
                 <MenuItem url="/botafogo" text="Botafogo" icon={IconBFR} />

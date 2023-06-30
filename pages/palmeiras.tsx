@@ -1,9 +1,9 @@
 import Layout from '@/components/template/Layout'
 
-export default function Home() {
+export default function Palmeiras() {
   return (
     <div>
-      <Layout title='Sociedade Esportiva Palmeiras' subtitle='Template'>
+      <Layout title='Sociedade Esportiva Palmeiras'>
         <h3>Conteúdo</h3>
       </Layout>
     </div>

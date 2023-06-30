@@ -1,9 +1,9 @@
 import Layout from '@/components/template/Layout'
 
-export default function Home() {
+export default function Bahia() {
   return (
     <div>
-      <Layout title='Esporte Clube Bahia' subtitle='Template'>
+      <Layout title='Esporte Clube Bahia'>
         <h3>Conteúdo</h3>
       </Layout>
     </div>

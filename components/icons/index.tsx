@@ -1,7 +1,7 @@
 export const IconSerieA = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#c1f700]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#c1f700] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -27,7 +27,7 @@ preserveAspectRatio="xMidYMid meet">
 
 export const IconAFC = (
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- className="h-10 w-10 fill-white hover:fill-[#007b4c]" viewBox="0 0 100.000000 100.000000"
+ className="h-10 w-10 fill-white hover:fill-[#007b4c] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
  preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -65,7 +65,7 @@ export const IconAFC = (
 export const IconCAP = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#c20f2d]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#c20f2d] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -88,7 +88,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconCAM = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#000000]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#000000] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -117,7 +117,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconECB = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#0069af]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#0069af] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -157,7 +157,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconBFR = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#000000]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#000000] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -176,7 +176,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconSCCP = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#c73328]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#c73328] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -226,7 +226,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconCFC = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#00514b]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#00514b] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -270,7 +270,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconCRU = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#2e4f99]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#2e4f99] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -305,7 +305,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconCUI = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#066032]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#066032] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -325,7 +325,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconCRF = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#bf2512]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#bf2512] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -365,7 +365,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconFFC = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#88293a]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#88293a] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -411,7 +411,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconFEC = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#005ea5]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#005ea5] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -434,7 +434,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconGEC = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#01461d]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#01461d] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -460,7 +460,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconGFBPA = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#009ce0]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#009ce0] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -498,7 +498,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconSCI = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#de050f]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#de050f] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -544,7 +544,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconSEP = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#006135]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#006135] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -585,7 +585,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconRBB = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-14 w-14 fill-white hover:fill-[#cf1d3d]" viewBox="0 0 100.000000 100.000000"
+className="h-14 w-14 fill-white hover:fill-[#cf1d3d] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -619,7 +619,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconSFC = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#000000]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#000000] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -663,7 +663,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconSPFC = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#f60000]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#f60000] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -687,7 +687,7 @@ preserveAspectRatio="xMidYMid meet">
 export const IconCRVG = (
 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-className="h-10 w-10 fill-white hover:fill-[#f71d12]" viewBox="0 0 100.000000 100.000000"
+className="h-10 w-10 fill-white hover:fill-[#f71d12] transition-[2s] hover:scale-125" viewBox="0 0 100.000000 100.000000"
 preserveAspectRatio="xMidYMid meet">
 
     <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
@@ -706,3 +706,15 @@ preserveAspectRatio="xMidYMid meet">
 </svg>
 
 );
+
+export const Sun = (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+    </svg>
+)
+
+export const Moon = (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+    </svg>
+)
