@@ -31,7 +31,7 @@ export default function SideMenu() {
                 <MenuItem url="/gremio" text="Grêmio" icon={IconGFBPA} />
                 <MenuItem url="/internacional" text="Internacional" icon={IconSCI} />
                 <MenuItem url="/palmeiras" text="Palmeiras" icon={IconSEP} />
-                <MenuItem url="/bragantino" text="Bragantino" icon={IconRBB} />
+                <MenuItem url="/bragantino" text="RB Bragantino" icon={IconRBB} />
                 <MenuItem url="/santos" text="Santos" icon={IconSFC} />
                 <MenuItem url="/saopaulo" text="São Paulo" icon={IconSPFC} />
                 <MenuItem url="/vasco" text="Vasco" icon={IconCRVG} />
