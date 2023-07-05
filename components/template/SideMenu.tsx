@@ -1,4 +1,4 @@
-import { IconAFC, IconBFR, IconCAM, IconCAP, IconCFC, IconCRF, IconCRU, IconCRVG, IconCUI, IconECB, IconFEC, IconFFC, IconGEC, IconGFBPA, IconRBB, IconSCCP, IconSCI, IconSEP, IconSFC, IconSPFC, IconSerieA } from "../icons";
+import { IconAFC, IconBFR, IconBoots, IconCAM, IconCAP, IconCFC, IconCRF, IconCRU, IconCRVG, IconCUI, IconECB, IconFEC, IconFFC, IconGEC, IconGFBPA, IconRBB, IconSCCP, IconSCI, IconSEP, IconSFC, IconSPFC, IconSerieA } from "../icons";
 import MenuItem from "./MenuItem";
 import Image from "next/image";
 import Logo from "../../public/images/Logo.png"
@@ -15,6 +15,7 @@ export default function SideMenu() {
             </div>
             <ul>
                 <MenuItem url="/" text="Destaques" icon={IconSerieA} />
+                <MenuItem url="/posicao" text="Por posição" icon={IconBoots} />
                 <MenuItem url="/america" text="América" icon={IconAFC} />
                 <MenuItem url="/athletico" text="Athletico" icon={IconCAP} />
                 <MenuItem url="/atletico" text="Atlético-MG" icon={IconCAM} />

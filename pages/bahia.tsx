@@ -114,18 +114,18 @@ export default function Bahia() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 8</p>
+                      <p className='mr-4'>Jogados: 9</p>
                       <p>Iniciou: 6</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
                     <p>Grandes chances criadas: 0</p>
                     <p>Jogos sem sofrer gols: 1</p>
-                    <p>Desarmes por jogo: 1.6</p>
-                    <p>Passes decisivos por jogo: 1.4</p>
-                    <p>Bolas longas: 0.8(43%)</p>
-                    <p>Disputa de bola vencidas: 2.9</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.61</span></p>
+                    <p>Desarmes por jogo: 1.4</p>
+                    <p>Passes decisivos por jogo: 1.3</p>
+                    <p>Bolas longas: 0.7(43%)</p>
+                    <p>Disputa de bola vencidas: 3</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.58</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -138,17 +138,17 @@ export default function Bahia() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 8</p>
-                      <p>Iniciou: 8</p>
+                      <p className='mr-4'>Jogados: 9</p>
+                      <p>Iniciou: 9</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
                     <p>Interceptações por jogo: 0.8</p>
                     <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 1.1</p>
-                    <p>Cortes por jogo: 1.3</p>
+                    <p>Desarmes por jogo: 1.2</p>
+                    <p>Cortes por jogo: 1.4</p>
                     <p>Erros defensivos: 1</p>
-                    <p>Disputa de bola vencidas: 3.6</p>
+                    <p>Disputa de bola vencidas: 3.4</p>
                     <p>Nota média: <span className='text-yellow-400'>6.58</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
@@ -162,18 +162,18 @@ export default function Bahia() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 10</p>
-                      <p>Iniciou: 10</p>
+                      <p className='mr-4'>Jogados: 11</p>
+                      <p>Iniciou: 11</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
                     <p>Interceptações por jogo: 1.9</p>
                     <p>Jogos sem sofrer gols: 3</p>
-                    <p>Desarmes por jogo: 1.3</p>
-                    <p>Cortes por jogo: 3</p>
+                    <p>Desarmes por jogo: 1.2</p>
+                    <p>Cortes por jogo: 3.1</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 4.6</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.98</span></p>
+                    <p>Disputa de bola vencidas: 4.2</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.92</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -186,7 +186,7 @@ export default function Bahia() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 8</p>
+                      <p className='mr-4'>Jogados: 9</p>
                       <p>Iniciou: 8</p>
                     </div>
                     <p>Gols: 1</p>
@@ -197,7 +197,7 @@ export default function Bahia() {
                     <p>Cortes por jogo: 4.6</p>
                     <p>Erros defensivos: 1</p>
                     <p>Disputa de bola vencidas: 3.5</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.81</span></p>
+                    <p>Nota média: <span className='text-green-500'>7.08</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -210,18 +210,18 @@ export default function Bahia() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 5</p>
-                      <p>Iniciou: 5</p>
+                      <p className='mr-4'>Jogados: 6</p>
+                      <p>Iniciou: 6</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 0.6</p>
+                    <p>Grandes chances criadas: 0</p>
                     <p>Jogos sem sofrer gols: 2</p>
-                    <p>Desarmes por jogo: 2.8</p>
-                    <p>Cortes por jogo: 3.2</p>
-                    <p>Erros defensivos: 1</p>
-                    <p>Disputa de bola vencidas: 7.6</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.70</span></p>
+                    <p>Desarmes por jogo: 2.5</p>
+                    <p>Passes decisivos por jogo: 1</p>
+                    <p>Bolas longas: 0.5(25%)</p>
+                    <p>Disputa de bola vencidas: 6.7</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.65</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>

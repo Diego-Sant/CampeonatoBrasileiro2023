@@ -140,18 +140,18 @@ export default function Atletico() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 7</p>
-                      <p>Iniciou: 6</p>
+                      <p className='mr-4'>Jogados: 2</p>
+                      <p>Iniciou: 2</p>
                     </div>
-                    <p>Gols: 1</p>
+                    <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 1.1</p>
+                    <p>Interceptações por jogo: 2</p>
                     <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 0.7</p>
-                    <p>Cortes por jogo: 3.4</p>
+                    <p>Desarmes por jogo: 0.5</p>
+                    <p>Cortes por jogo: 5.5</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 3.7</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.90</span></p>
+                    <p>Disputa de bola vencidas: 5</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.75</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -164,18 +164,18 @@ export default function Atletico() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 7</p>
-                      <p>Iniciou: 5</p>
+                      <p className='mr-4'>Jogados: 11</p>
+                      <p>Iniciou: 11</p>
                     </div>
                     <p>Gols: 0</p>
-                    <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 0.7</p>
-                    <p>Jogos sem sofrer gols: 1</p>
-                    <p>Desarmes por jogo: 0.7</p>
-                    <p>Cortes por jogo: 1.9</p>
-                    <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 2.3</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.83</span></p>
+                    <p className='mb-2'>Assistências: 1</p>
+                    <p>Interceptações por jogo: 1.2</p>
+                    <p>Jogos sem sofrer gols: 6</p>
+                    <p>Desarmes por jogo: 1.8</p>
+                    <p>Cortes por jogo: 3.4</p>
+                    <p>Erros defensivos: 2</p>
+                    <p>Disputa de bola vencidas: 5.1</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.97</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -213,17 +213,17 @@ export default function Atletico() {
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
                       <p className='mr-4'>Jogados: 11</p>
-                      <p>Iniciou: 10</p>
+                      <p>Iniciou: 11</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 1</p>
-                    <p>Interceptações por jogo: 0.5</p>
-                    <p>Jogos sem sofrer gols: 3</p>
-                    <p>Desarmes por jogo: 0.5</p>
-                    <p>Cortes por jogo: 2</p>
+                    <p>Interceptações por jogo: 1.3</p>
+                    <p>Jogos sem sofrer gols: 4</p>
+                    <p>Desarmes por jogo: 1.5</p>
+                    <p>Cortes por jogo: 4.4</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 2</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.72</span></p>
+                    <p>Disputa de bola vencidas: 4.8</p>
+                    <p>Nota média: <span className='text-green-500'>7.00</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>

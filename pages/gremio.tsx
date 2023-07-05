@@ -166,18 +166,18 @@ export default function Gremio() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 11</p>
-                      <p>Iniciou: 10</p>
+                      <p className='mr-4'>Jogados: 9</p>
+                      <p>Iniciou: 8</p>
                     </div>
-                    <p>Gols: 0</p>
-                    <p className='mb-2'>Assistências: 1</p>
-                    <p>Interceptações por jogo: 0.5</p>
-                    <p>Jogos sem sofrer gols: 3</p>
-                    <p>Desarmes por jogo: 0.5</p>
-                    <p>Cortes por jogo: 2</p>
-                    <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 2</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.72</span></p>
+                    <p>Gols: 1</p>
+                    <p className='mb-2'>Assistências: 0</p>
+                    <p>Interceptações por jogo: 1.7</p>
+                    <p>Jogos sem sofrer gols: 0</p>
+                    <p>Desarmes por jogo: 0.2</p>
+                    <p>Cortes por jogo: 3.8</p>
+                    <p>Erros defensivos: 1</p>
+                    <p>Disputa de bola vencidas: 4.7</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.76</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -190,18 +190,18 @@ export default function Gremio() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 7</p>
-                      <p>Iniciou: 6</p>
+                      <p className='mr-4'>Jogados: 10</p>
+                      <p>Iniciou: 10</p>
                     </div>
-                    <p>Gols: 1</p>
-                    <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 1.1</p>
-                    <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 0.7</p>
-                    <p>Cortes por jogo: 3.4</p>
+                    <p>Gols: 0</p>
+                    <p className='mb-2'>Assistências: 1</p>
+                    <p>Interceptações por jogo: 1.6</p>
+                    <p>Jogos sem sofrer gols: 2</p>
+                    <p>Desarmes por jogo: 2.6</p>
+                    <p>Cortes por jogo: 4.6</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 3.7</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.90</span></p>
+                    <p>Disputa de bola vencidas: 6.4</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.73</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -214,18 +214,18 @@ export default function Gremio() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 7</p>
-                      <p>Iniciou: 6</p>
+                      <p className='mr-4'>Jogados: 12</p>
+                      <p>Iniciou: 12</p>
                     </div>
-                    <p>Gols: 1</p>
+                    <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 1.1</p>
-                    <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 0.7</p>
-                    <p>Cortes por jogo: 3.4</p>
+                    <p>Interceptações por jogo: 1</p>
+                    <p>Jogos sem sofrer gols: 2</p>
+                    <p>Desarmes por jogo: 0.3</p>
+                    <p>Cortes por jogo: 3.8</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 3.7</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.90</span></p>
+                    <p>Disputa de bola vencidas: 2.9</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.80</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -239,17 +239,17 @@ export default function Gremio() {
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
                       <p className='mr-4'>Jogados: 7</p>
-                      <p>Iniciou: 5</p>
+                      <p>Iniciou: 3</p>
                     </div>
-                    <p>Gols: 0</p>
-                    <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 0.7</p>
-                    <p>Jogos sem sofrer gols: 1</p>
-                    <p>Desarmes por jogo: 0.7</p>
-                    <p>Cortes por jogo: 1.9</p>
+                    <p>Gols: 1</p>
+                    <p className='mb-2'>Assistências: 1</p>
+                    <p>Interceptações por jogo: 0.1</p>
+                    <p>Jogos sem sofrer gols: 0</p>
+                    <p>Desarmes por jogo: 1.7</p>
+                    <p>Cortes por jogo: 3.6</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 2.3</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.83</span></p>
+                    <p>Disputa de bola vencidas: 4.6</p>
+                    <p>Nota média: <span className='text-green-500'>7.13</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>

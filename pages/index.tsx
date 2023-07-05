@@ -109,13 +109,13 @@ export default function Home() {
                     </div>
                     <p>Gols: 1</p>
                     <p className='mb-2'>Assistências: 0</p>
-                    <p>Grandes chances criadas: 0</p>
+                    <p>Interceptações por jogo: 1.2</p>
                     <p>Jogos sem sofrer gols: 3</p>
                     <p>Desarmes por jogo: 0.6</p>
-                    <p>Passes decisivos por jogo: 0.2</p>
-                    <p>Bolas longas: 7.5(67%)</p>
+                    <p>Cortes por jogo: 3.1</p>
+                    <p>Erros defensivos: 0</p>
                     <p>Disputa de bola vencidas: 4.9</p>
-                    <p>Nota média: <span className='text-green-600'>7.19</span></p>
+                    <p>Nota média: <span className='text-green-500'>7.19</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -133,13 +133,13 @@ export default function Home() {
                     </div>
                     <p>Gols: 1</p>
                     <p className='mb-2'>Assistências: 1</p>
-                    <p>Grandes chances criadas: 0</p>
+                    <p>Interceptações por jogo: 1.2</p>
                     <p>Jogos sem sofrer gols: 8</p>
                     <p>Desarmes por jogo: 1.8</p>
-                    <p>Passes decisivos por jogo: 0.2</p>
-                    <p>Bolas longas: 2.3(52%)</p>
+                    <p>Cortes por jogo: 4.2</p>
+                    <p>Erros defensivos: 1</p>
                     <p>Disputa de bola vencidas: 4.3</p>
-                    <p>Nota média: <span className='text-green-600'>7.21</span></p>
+                    <p>Nota média: <span className='text-green-500'>7.21</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>

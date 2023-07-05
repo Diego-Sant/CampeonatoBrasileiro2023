@@ -23,6 +23,8 @@ import BrenoCascardo from '@/public/jogadores/brenocascardo.png'
 import Cavichioli from '@/public/jogadores/cavichioli.png'
 import EderFerreira from '@/public/jogadores/ederferreira.png'
 import Mastriani from '@/public/jogadores/mastriani.png'
+import Benitez from '@/public/jogadores/benitez.png'
+import Pasinato from '@/public/jogadores/pasinato.png'
 
 interface ShowBackgroundState {
   mancini: boolean;
@@ -44,10 +46,12 @@ interface ShowBackgroundState {
   cavichioli: boolean;
   ederferreira: boolean;
   mastriani: boolean;
+  benitez: boolean;
+  pasinato: boolean;
 }
 
 export default function America() {
-  const [showBackground, setShowBackground] = useState<ShowBackgroundState>({ mancini: false, avelar: false, juninho: false, aloisio: false, marlon: false, everaldo: false, wanderson: false, marlonlopes: false, emmanuel: false, iagomaidana: false, ale: false, azevedo: false, renatomarques: false, lucaskal: false, marcinho: false, brenocascardo: false, cavichioli: false, ederferreira: false, mastriani: false});
+  const [showBackground, setShowBackground] = useState<ShowBackgroundState>({ mancini: false, avelar: false, juninho: false, aloisio: false, marlon: false, everaldo: false, wanderson: false, marlonlopes: false, emmanuel: false, iagomaidana: false, ale: false, azevedo: false, renatomarques: false, lucaskal: false, marcinho: false, brenocascardo: false, cavichioli: false, ederferreira: false, mastriani: false, benitez: false, pasinato: false});
 
   const handleClick = (player: keyof ShowBackgroundState) => {
     setShowBackground((prevState) => ({
@@ -105,24 +109,44 @@ export default function America() {
               )}
             </div>
 
+            <div className={containerClasses} onClick={() => handleClick('pasinato')}>
+              <PlayerImage src={Pasinato} alt="pasinato" />
+              {showBackground.pasinato && (
+                <>
+                  <div className="absolute flex flex-col justify-center items-center text-white">
+                    <div className='flex mb-2'>
+                      <p className='mr-4'>Jogados: 6</p>
+                      <p>Iniciou: 6</p>
+                    </div>
+                    <p>Gols sofridos por jogo: 1.5</p>
+                    <p>Pênaltis defendidos: 0/1</p>
+                    <p>Defesas por jogo: 3.7(71%)</p>
+                    <p>Jogos sem sofrer gols: 1</p>
+                    <p>Nota média: <span className='text-green-500'>7.00</span></p>
+                  </div>
+                  <Image src={Fundo} alt='Fundo' />
+                </>
+              )}
+            </div>
+
             <div className={containerClasses} onClick={() => handleClick('avelar')}>
               <PlayerImage src={Avelar} alt="avelar" />
               {showBackground.avelar && (
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 9</p>
-                      <p>Iniciou: 7</p>
+                      <p className='mr-4'>Jogados: 10</p>
+                      <p>Iniciou: 8</p>
                     </div>
                     <p>Gols: 3</p>
-                    <p className='mb-2'>Assistências: 0</p>
-                    <p>Grandes chances criadas: 0</p>
+                    <p className='mb-2'>Assistências: 1</p>
+                    <p>Grandes chances criadas: 1</p>
                     <p>Jogos sem sofrer gols: 1</p>
-                    <p>Desarmes por jogo: 1.6</p>
-                    <p>Passes decisivos por jogo: 0.4</p>
-                    <p>Bolas longas: 1.2(41%)</p>
-                    <p>Disputa de bola vencidas: 6.8</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.99</span></p>
+                    <p>Desarmes por jogo: 1.9</p>
+                    <p>Passes decisivos por jogo: 0.7</p>
+                    <p>Bolas longas: 1.1(39%)</p>
+                    <p>Disputa de bola vencidas: 7.6</p>
+                    <p>Nota média: <span className='text-green-500'>7.02</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -135,18 +159,18 @@ export default function America() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 7</p>
+                      <p className='mr-4'>Jogados: 8</p>
                       <p>Iniciou: 6</p>
                     </div>
-                    <p>Gols: 0</p>
+                    <p>Gols: 3</p>
                     <p className='mb-2'>Assistências: 1</p>
-                    <p>Interceptações por jogo: 1.1</p>
+                    <p>Grandes chances criadas: 0</p>
                     <p>Jogos sem sofrer gols: 1</p>
-                    <p>Desarmes por jogo: 1.9</p>
-                    <p>Cortes por jogo: 1.7</p>
-                    <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 5.7</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.66</span></p>
+                    <p>Desarmes por jogo: 1.6</p>
+                    <p>Passes decisivos por jogo: 1.3</p>
+                    <p>Bolas longas: 1.4(42%)</p>
+                    <p>Disputa de bola vencidas: 5.4</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.69</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -159,18 +183,18 @@ export default function America() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 6</p>
+                      <p className='mr-4'>Jogados: 7</p>
                       <p>Iniciou: 5</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
-                    <p>Grandes chances criadas: 0</p>
+                    <p>Interceptações por jogo: 0.6</p>
                     <p>Jogos sem sofrer gols: 1</p>
-                    <p>Desarmes por jogo: 0.8</p>
-                    <p>Passes decisivos por jogo: 0.2</p>
-                    <p>Bolas longas: 2.5(36%)</p>
-                    <p>Disputa de bola vencidas: 3.5</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.58</span></p>
+                    <p>Desarmes por jogo: 0.7</p>
+                    <p>Cortes por jogo: 4</p>
+                    <p>Erros defensivos: 0</p>
+                    <p>Disputa de bola vencidas: 3.1</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.57</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -184,17 +208,17 @@ export default function America() {
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
                       <p className='mr-4'>Jogados: 11</p>
-                      <p>Iniciou: 11</p>
+                      <p>Iniciou: 9</p>
                     </div>
-                    <p>Gols: 3</p>
+                    <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
                     <p>Interceptações por jogo: 0.7</p>
                     <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 1.3</p>
-                    <p>Cortes por jogo: 3.6</p>
+                    <p>Desarmes por jogo: 1.4</p>
+                    <p>Cortes por jogo: 3.5</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 3.8</p>
-                    <p>Nota média: <span className='text-red-500'>6.44</span></p>
+                    <p>Disputa de bola vencidas: 4</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.51</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -207,18 +231,18 @@ export default function America() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 6</p>
-                      <p>Iniciou: 6</p>
+                      <p className='mr-4'>Jogados: 7</p>
+                      <p>Iniciou: 7</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 1.2</p>
+                    <p>Interceptações por jogo: 1.4</p>
                     <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 1.8</p>
-                    <p>Cortes por jogo: 4.8</p>
+                    <p>Desarmes por jogo: 2.1</p>
+                    <p>Cortes por jogo: 4.1</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 5.5</p>
-                    <p>Nota média: <span className='text-red-500'>6.35</span></p>
+                    <p>Disputa de bola vencidas: 5.6</p>
+                    <p>Nota média: <span className='text-red-500'>6.41</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -231,18 +255,18 @@ export default function America() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 9</p>
-                      <p>Iniciou: 8</p>
+                      <p className='mr-4'>Jogados: 10</p>
+                      <p>Iniciou: 9</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 1.7</p>
+                    <p>Grandes chances criadas: 1</p>
                     <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 1</p>
-                    <p>Cortes por jogo: 2.1</p>
-                    <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 2.8</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.54</span></p>
+                    <p>Desarmes por jogo: 0.9</p>
+                    <p>Passes decisivos por jogo: 0.8</p>
+                    <p>Bolas longas: 2.5(36%)</p>
+                    <p>Disputa de bola vencidas: 2.5</p>
+                    <p>Nota média: <span className='text-red-500'>6.44</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -339,6 +363,30 @@ export default function America() {
                     <p>Bolas longas: 0.8(73%)</p>
                     <p>Disputa de bola vencidas: 3.3</p>
                     <p>Nota média: <span className='text-yellow-400'>6.67</span></p>
+                  </div>
+                  <Image src={Fundo} alt='Fundo' />
+                </>
+              )}
+            </div>
+
+            <div className={containerClasses} onClick={() => handleClick('benitez')}>
+              <PlayerImage src={Benitez} alt="benitez" />
+              {showBackground.benitez && (
+                <>
+                  <div className="absolute flex flex-col justify-center items-center text-white">
+                    <div className='flex'>
+                      <p className='mr-4'>Jogados: 6</p>
+                      <p>Iniciou: 4</p>
+                    </div>
+                    <p>Gols: 0</p>
+                    <p className='mb-2'>Assistências: 1</p>
+                    <p>Grandes chances criadas: 3</p>
+                    <p>Toques por jogo: 53.8</p>
+                    <p>Dribles bem sucedidos: 2.8</p>
+                    <p>Passes decisivos por jogo: 1.8</p>
+                    <p>Bolas longas: 2.8(52%)</p>
+                    <p>Disputa de bola vencidas: 7.7</p>
+                    <p>Nota média: <span className='text-green-500'>7.07</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>

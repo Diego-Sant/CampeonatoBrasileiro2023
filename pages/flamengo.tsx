@@ -162,18 +162,18 @@ export default function Flamengo() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 3</p>
-                      <p>Iniciou: 2</p>
+                      <p className='mr-4'>Jogados: 13</p>
+                      <p>Iniciou: 11</p>
                     </div>
-                    <p>Gols: 0</p>
-                    <p className='mb-2'>Assistências: 0</p>
-                    <p>Grandes chances criadas: 0</p>
-                    <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 0.7</p>
-                    <p>Passes decisivos por jogo: 1</p>
-                    <p>Bolas longas: 1.7(56%)</p>
-                    <p>Disputa de bola vencidas: 2.7</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.83</span></p>
+                    <p>Gols: 3</p>
+                    <p className='mb-2'>Assistências: 1</p>
+                    <p>Grandes chances criadas: 1</p>
+                    <p>Jogos sem sofrer gols: 3</p>
+                    <p>Desarmes por jogo: 1.5</p>
+                    <p>Passes decisivos por jogo: 0.6</p>
+                    <p>Bolas longas: 2.4(65%)</p>
+                    <p>Disputa de bola vencidas: 5.4</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.89</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -186,42 +186,18 @@ export default function Flamengo() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 1</p>
-                      <p>Iniciou: 1</p>
+                      <p className='mr-4'>Jogados: 3</p>
+                      <p>Iniciou: 0</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 1</p>
+                    <p>Grandes chances criadas: 0</p>
                     <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 0</p>
-                    <p>Cortes por jogo: 0</p>
-                    <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 4</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.50</span></p>
-                  </div>
-                  <Image src={Fundo} alt='Fundo' />
-                </>
-              )}
-            </div>
-
-            <div className={containerClasses} onClick={() => handleClick('davidluiz')}>
-              <PlayerImage src={davidluiz} alt="davidluiz" />
-              {showBackground.davidluiz && (
-                <>
-                  <div className="absolute flex flex-col justify-center items-center text-white">
-                    <div className='flex'>
-                      <p className='mr-4'>Jogados: 7</p>
-                      <p>Iniciou: 6</p>
-                    </div>
-                    <p>Gols: 1</p>
-                    <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 1.1</p>
-                    <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 0.7</p>
-                    <p>Cortes por jogo: 3.4</p>
-                    <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 3.7</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.90</span></p>
+                    <p>Desarmes por jogo: 1.3</p>
+                    <p>Passes decisivos por jogo: 0</p>
+                    <p>Bolas longas: 0.7(100%)</p>
+                    <p>Disputa de bola vencidas: 1.3</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.83</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -234,18 +210,42 @@ export default function Flamengo() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 7</p>
+                      <p className='mr-4'>Jogados: 12</p>
+                      <p>Iniciou: 12</p>
+                    </div>
+                    <p>Gols: 3</p>
+                    <p className='mb-2'>Assistências: 0</p>
+                    <p>Interceptações por jogo: 0.9</p>
+                    <p>Jogos sem sofrer gols: 3</p>
+                    <p>Desarmes por jogo: 1.5</p>
+                    <p>Cortes por jogo: 1.8</p>
+                    <p>Erros defensivos: 1</p>
+                    <p>Disputa de bola vencidas: 3.9</p>
+                    <p>Nota média: <span className='text-green-500'>7.16</span></p>
+                  </div>
+                  <Image src={Fundo} alt='Fundo' />
+                </>
+              )}
+            </div>
+
+            <div className={containerClasses} onClick={() => handleClick('davidluiz')}>
+              <PlayerImage src={davidluiz} alt="davidluiz" />
+              {showBackground.davidluiz && (
+                <>
+                  <div className="absolute flex flex-col justify-center items-center text-white">
+                    <div className='flex'>
+                      <p className='mr-4'>Jogados: 8</p>
                       <p>Iniciou: 5</p>
                     </div>
-                    <p>Gols: 0</p>
-                    <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 0.7</p>
+                    <p>Gols: 1</p>
+                    <p className='mb-2'>Assistências: 1</p>
+                    <p>Interceptações por jogo: 0.8</p>
                     <p>Jogos sem sofrer gols: 1</p>
-                    <p>Desarmes por jogo: 0.7</p>
-                    <p>Cortes por jogo: 1.9</p>
+                    <p>Desarmes por jogo: 0.5</p>
+                    <p>Cortes por jogo: 4.6</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 2.3</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.83</span></p>
+                    <p>Disputa de bola vencidas: 2.8</p>
+                    <p>Nota média: <span className='text-green-500'>7.11</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -258,18 +258,18 @@ export default function Flamengo() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 11</p>
-                      <p>Iniciou: 10</p>
+                      <p className='mr-4'>Jogados: 13</p>
+                      <p>Iniciou: 13</p>
                     </div>
                     <p>Gols: 0</p>
                     <p className='mb-2'>Assistências: 1</p>
                     <p>Interceptações por jogo: 0.5</p>
-                    <p>Jogos sem sofrer gols: 3</p>
-                    <p>Desarmes por jogo: 0.5</p>
-                    <p>Cortes por jogo: 2</p>
+                    <p>Jogos sem sofrer gols: 5</p>
+                    <p>Desarmes por jogo: 1.4</p>
+                    <p>Cortes por jogo: 4.3</p>
                     <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 2</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.72</span></p>
+                    <p>Disputa de bola vencidas: 3.5</p>
+                    <p>Nota média: <span className='text-green-500'>7.07</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
@@ -282,18 +282,18 @@ export default function Flamengo() {
                 <>
                   <div className="absolute flex flex-col justify-center items-center text-white">
                     <div className='flex'>
-                      <p className='mr-4'>Jogados: 8</p>
-                      <p>Iniciou: 5</p>
+                      <p className='mr-4'>Jogados: 13</p>
+                      <p>Iniciou: 12</p>
                     </div>
                     <p>Gols: 0</p>
-                    <p className='mb-2'>Assistências: 0</p>
-                    <p>Interceptações por jogo: 0.4</p>
-                    <p>Jogos sem sofrer gols: 0</p>
-                    <p>Desarmes por jogo: 2.5</p>
-                    <p>Cortes por jogo: 0.4</p>
-                    <p>Erros defensivos: 0</p>
-                    <p>Disputa de bola vencidas: 3.6</p>
-                    <p>Nota média: <span className='text-yellow-400'>6.88</span></p>
+                    <p className='mb-2'>Assistências: 1</p>
+                    <p>Grandes chances criadas: 4</p>
+                    <p>Jogos sem sofrer gols: 4</p>
+                    <p>Desarmes por jogo: 1.9</p>
+                    <p>Passes decisivos por jogo: 1.2</p>
+                    <p>Bolas longas: 0.5(35%)</p>
+                    <p>Disputa de bola vencidas: 5.5</p>
+                    <p>Nota média: <span className='text-yellow-400'>6.62</span></p>
                   </div>
                   <Image src={Fundo} alt='Fundo' />
                 </>
